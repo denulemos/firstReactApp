@@ -6,8 +6,8 @@ class Button extends Component {
       <Fragment>
         <button
           className="btn btn-outline-success my-2 my-sm-0"
-          type={this.props.type}
-          onClick=""
+          type={this.props.buttonType}
+          onClick={this.props.onClick}
         >
           {this.props.text} 
         </button>
